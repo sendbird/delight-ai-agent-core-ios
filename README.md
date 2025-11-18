@@ -1,4 +1,4 @@
-# SendbirdAIAgentCore (Beta)
+# Delight AI Agent Core
 
 ## Overview
 
