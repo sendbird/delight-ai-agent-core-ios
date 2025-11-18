@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: sendbird-ai-agent-core-ios
-  description: Sendbird AI Agent Core SDK for iOS
+  name: delight-ai-agent-core-ios
+  description: Delight AI Agent Core SDK for iOS
   annotations:
-    github.com/project-slug: sendbird/sendbird-ai-agent-core-ios
+    github.com/project-slug: sendbird/delight-ai-agent-core-ios
 spec:
   type: library-internal dev
   lifecycle: production
   owner: dep-client-platform
-  system: sendbird-ai-agent
+  system: delight-ai-agent
