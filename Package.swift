@@ -18,7 +18,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/sendbird/sendbird-uikit-ios-spm",
-            from: "3.32.3"
+            from: "3.32.4"
         ),
         .package(
             url: "https://github.com/sendbird/sendbird-chat-sdk-ios",
