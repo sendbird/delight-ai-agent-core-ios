@@ -22,14 +22,14 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/sendbird/sendbird-chat-sdk-ios",
-            from: "4.36.0"
+            from: "4.37.1"
         )
     ],
     targets: [
         .binaryTarget(
             name: "SendbirdAIAgentCore",
-            url: "https://github.com/sendbird/delight-ai-agent-core-ios/releases/download/1.6.0/SendbirdAIAgentCore.xcframework.zip",
-            checksum: "7deab4d14ff24774025f956ab1fa839fa798ce73392d1ff2fd85fe96c809b47a"
+            url: "https://github.com/sendbird/delight-ai-agent-core-ios/releases/download/1.7.0/SendbirdAIAgentCore.xcframework.zip",
+            checksum: "12788cc0fc2bbf82842833c625e6a6e7a4eede09575761e7c47400f8dbddc9cc"
         ),
         .target(
             name: "SendbirdAIAgentCoreTarget",
