@@ -28,8 +28,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SendbirdAIAgentCore",
-            url: "https://github.com/sendbird/delight-ai-agent-core-ios/releases/download/1.17.3/SendbirdAIAgentCore.xcframework.zip",
-            checksum: "46a2e27b45ae997755d5488e38487a7fc1968603172f0080c0eec78301e1e0a5"
+            url: "https://github.com/sendbird/delight-ai-agent-core-ios/releases/download/1.18.0/SendbirdAIAgentCore.xcframework.zip",
+            checksum: "e440236d7deb186f60bc543dda090515aef24a4e0dd706f67476d8575cc054f2"
         ),
         .target(
             name: "SendbirdAIAgentCoreTarget",
