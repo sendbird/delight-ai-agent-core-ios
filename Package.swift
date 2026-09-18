@@ -14,6 +14,12 @@ import PackageDescription
 //
 // xcframework 는 sendbird-ios-distribution 의 scripts/build_xcframeworks.sh 가
 // 업스트림 0.16.0 소스로 만들고, sendbird-ios-distribution 의 릴리즈 태그에 zip 으로 올린다.
+//
+// Splash 의 url 태그는 ai-agent-ios/Configurations/Base.xcconfig 의
+// DISTRIBUTION_PACKAGE_VERSION 과 항상 같아야 한다. 아래 sendbird-ios-distribution
+// 의존의 from: 도 같은 값이다. 릴리즈 CI 의
+// ai-agent-ios/scripts/update_versions_public_repo.sh 가 이 변수 하나로
+// 두 값을 함께 갱신하고 checksum 을 채운다.
 
 let package = Package(
     name: "SendbirdAIAgentCore",
