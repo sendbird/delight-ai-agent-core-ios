@@ -30,7 +30,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/sendbird/sendbird-ios-distribution",
-            from: "0.11.0"
+            branch: "test/aa-18079-spm-remote"
         ),
         .package(
             url: "https://github.com/sendbird/sendbird-uikit-ios-spm",
@@ -44,13 +44,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SendbirdAIAgentCore",
-            url: "https://github.com/sendbird/delight-ai-agent-core-ios/releases/download/1.21.0/SendbirdAIAgentCore.xcframework.zip",
-            checksum: "cae7fe5fba095c1f1213259515da84916622dac2211d8a5b2ff3bd448daabf5a"
+            url: "https://github.com/sendbird/sendbird-ios-distribution/releases/download/spm-test-aa-18079-35554001178/SendbirdAIAgentCore.xcframework.zip",
+            checksum: "52b3f7ab6b5c348a04b41e8e676a6cc5109b7bb996b91f29db760d8ed1b640b4"
         ),
         .binaryTarget(
             name: "Splash",
-            url: "https://github.com/sendbird/sendbird-ios-distribution/releases/download/0.11.0/Splash.xcframework.zip",
-            checksum: "0000000000000000000000000000000000000000000000000000000000000000"
+            url: "https://github.com/sendbird/sendbird-ios-distribution/releases/download/spm-test-aa-18079-35554001178/Splash.xcframework.zip",
+            checksum: "a793d509bc194f77d1afa14a955d653d4be512aaef658fd2ad7dcfdc5de21bbf"
         ),
         // binaryTarget 은 의존을 선언할 수 없다. 이 빈 타깃이 대신 묶는다.
         .target(
