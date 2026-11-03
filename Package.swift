@@ -34,18 +34,18 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/sendbird/sendbird-uikit-ios-spm",
-            from: "3.36.2"
+            from: "3.36.3"
         ),
         .package(
             url: "https://github.com/sendbird/sendbird-chat-sdk-ios",
-            from: "4.39.11"
+            from: "4.39.12"
         )
     ],
     targets: [
         .binaryTarget(
             name: "SendbirdAIAgentCore",
-            url: "https://github.com/sendbird/delight-ai-agent-core-ios/releases/download/1.23.2/SendbirdAIAgentCore.xcframework.zip",
-            checksum: "6978d080bde7a18179ed3e089abbeda6b5915dc562cb5c3163f76c57f9371f28"
+            url: "https://github.com/sendbird/delight-ai-agent-core-ios/releases/download/1.24.0/SendbirdAIAgentCore.xcframework.zip",
+            checksum: "0f0a72921e6ae75722345593559429cdb82b5d76514ff88c1af33258db49669c"
         ),
         .binaryTarget(
             name: "Splash",
